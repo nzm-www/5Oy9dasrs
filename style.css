@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css2?family=Sahitya:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+  font-family: "Sahitya", serif;
+}
+
+.titl {
+  font-size: 24px;
+  text-align: center;
+  color: rgb(116, 116, 216);
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 170px;
+  padding-bottom: 119px;
+  background-image: radial-gradient(
+    circle 862px at 3.9% 23.8%,
+    rgba(17, 58, 93, 1) 0%,
+    rgba(18, 51, 80, 1) 90.8%
+  );
+  background-repeat: no-repeat;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  max-width: 700px;
+  width: 100%;
+  padding: 50px 0px;
+  border-radius: 20px;
+  box-shadow: rgba(255, 255, 255, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.block {
+  color: rgb(116, 116, 216);
+}
+.template {
+  border-radius: 25px;
+  width: 100%;
+  max-width: 200;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 20px;
+  height: 350px;
+
+  list-style: none;
+  font-family: "roboro", sans-serif;
+  background-image: radial-gradient(
+    circle 862px at 3.9% 23.8%,
+    rgba(17, 58, 93, 1) 0%,
+    rgba(18, 51, 80, 1) 90.8%
+  );
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100px;
+}
+.email {
+  font-size: 11px;
+  color: #ffffff;
+}
+.name {
+  margin-top: 20px;
+  color: #ffffff;
+  font-family: "Luckiest Guy", display;
+}
+.tel {
+  color: #ffffff;
+  padding-top: 10px;
+  font-family: "Luckiest Guy", display;
+}
+.form {
+  border-radius: 20px;
+  background-image: radial-gradient(
+    circle 862px at 3.9% 23.8%,
+    rgba(17, 58, 93, 1) 0%,
+    rgba(18, 51, 80, 1) 90.8%
+  );
+  background-repeat: no-repeat;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.imgg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.btnsubmit {
+  color: #ffffff50;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-image: radial-gradient(
+    circle 1292px at -13.6% 51.7%,
+    rgba(0, 56, 68, 1) 0%,
+    rgba(163, 217, 185, 1) 51.5%,
+    rgba(255, 252, 247, 1) 88.6%
+  );
+  transition: 0.5s ease;
+}
+.btnsubmit:hover {
+  color: #fff;
+  opacity: 0.5;
+}
+.inputi {
+  border: 0;
+  border-radius: 5px;
+  background-image: radial-gradient(
+    circle 1292px at -13.6% 51.7%,
+    rgba(0, 56, 68, 1) 0%,
+    rgba(163, 217, 185, 1) 51.5%,
+    rgba(255, 252, 247, 1) 88.6%
+  );
+  outline: none;
+  color: #fff;
+  padding: 3px 3px;
+}
+
+.infos {
+  background-color: #fff;
+  color: #fff;
+}

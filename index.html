@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="box">
+      <form class="form">
+        <h3 class="titl">User-Info</h3>
+        <br />
+
+        <label for="">
+          <span class="block">User name:</span>
+          <input id="name" class="inputi" type="text" />
+        </label>
+
+        <label for="">
+          <span class="block">image:</span>
+          <input id="img" class="inputi" type="url" />
+        </label>
+
+        <label for="">
+          <span class="block">Email:</span>
+          <input id="email" class="inputi" type="email" />
+        </label>
+
+        <label for="">
+          <span class="block">Number</span>
+          <input id="phone-number" class="inputi" type="tel" />
+        </label>
+        <button class="btnsubmit">Submit</button>
+      </form>
+
+      <ul class="list-disc mt-10">
+        <template>
+          <li class="template">
+            <img
+              class="imgg"
+              src="
+            "
+              width="200"
+              alt=""
+            />
+            <div class="ifos">
+              <h3 class="name">ronaldo</h3>
+              <hr class="hr" />
+              <p class="email">Email: Ronaldo@gmail.com</p>
+              <p class="tel">tel: +998772726277</p>
+            </div>
+          </li>
+        </template>
+      </ul>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
